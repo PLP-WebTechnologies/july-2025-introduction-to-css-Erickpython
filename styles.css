@@ -1,0 +1,125 @@
+/* univeral styles for the webpage */
+* {
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* styles for the header section and its elements */
+#header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border: #007bff 2px solid;
+    border-radius: 5px;
+}
+
+#header h1 {
+    font-size: 2.5em;
+    color: #4a4a4a;
+}
+
+/* styles for the navigation bar */
+#navbar {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* styles for the home section card */
+#home {
+    background-color: #ffffff;
+    padding: 20px;
+    border: red 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+#home h2 {
+    color: #160000;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+#home p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #070000;
+}
+
+/* styles for the about section card */
+#about {
+    background-color: #d7bfe6;
+    padding: 20px;
+    border: green 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+#about h2 {
+    color: #160000;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+#about p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #0a0000;
+}
+
+/* styles for the contact section card */
+#contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: blue 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+#contact h2 {
+    color: #160000;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+#contact p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #0a0000;
+}
+
+/* styles for the foooter section */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border: #007bff 2px solid;
+    border-radius: 5px;
+}
+footer p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #110101;
+}
+
+
